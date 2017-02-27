@@ -2,7 +2,8 @@
 #
 # Set the right permissions to the devices provided by the
 # armsoc driver
-KERNEL=="mali",SUBSYSTEM=="misc",MODE="0777"
+KERNEL=="mali", MODE="0660", GROUP="video"
+KERNEL=="ump", MODE="0660", GROUP="video"
 
 ENV{ACL_MANAGE}=="0", GOTO="mali_gpu_end"
 ACTION!="add|change", GOTO="mali_gpu_end"
