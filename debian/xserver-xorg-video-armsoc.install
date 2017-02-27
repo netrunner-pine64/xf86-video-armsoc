@@ -1,0 +1,2 @@
+usr/lib/xorg/modules/
+debian/pine64.conf /etc/X11/xorg.conf.d/
