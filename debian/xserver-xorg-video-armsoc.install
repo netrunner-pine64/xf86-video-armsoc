@@ -1,1 +1,2 @@
-debian/pine64.conf /etc/X11/xorg.conf.d/
+debian/40-pine64-armsoc.conf /etc/X11/xorg.conf.d/
+debian/50-pine64-pinebook-touchpad.conf /etc/X11/xorg.conf.d/
